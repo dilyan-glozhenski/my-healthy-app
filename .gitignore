@@ -1,1 +1,10 @@
 node_modules/
+.env
+
+# Expo mobile build artifacts
+/apps/mobile/.expo/
+/apps/mobile/dist/
+/apps/mobile/web-build/
+/apps/mobile/expo-env.d.ts
+/apps/mobile/ios/
+/apps/mobile/android/
