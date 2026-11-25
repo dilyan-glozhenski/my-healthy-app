@@ -1,4 +1,5 @@
 import { Stack } from 'expo-router';
+import '../src/i18n';
 
 const isLoggedIn = false;
 

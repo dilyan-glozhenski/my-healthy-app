@@ -1,5 +1,6 @@
 import { Link, type Href } from 'expo-router';
 import { Pressable, StyleSheet, Text } from 'react-native';
+import {colors} from '../../theme';
 
 type ButtonCta = Href | (() => void | Promise<void>);
 
@@ -25,13 +26,13 @@ export default function Button({ value, cta }: ButtonProps) {
 const styles = StyleSheet.create({
   button: {
     alignItems: 'center',
-    backgroundColor: '#2563EB',
-    borderRadius: 8,
+    backgroundColor: colors.primary,
+    borderRadius: 12,
     paddingHorizontal: 16,
-    paddingVertical: 12,
+    paddingVertical: 24,
   },
   label: {
-    color: '#FFFFFF',
+    color: colors.textOnPrimary,
     fontSize: 16,
     fontWeight: '600',
   },

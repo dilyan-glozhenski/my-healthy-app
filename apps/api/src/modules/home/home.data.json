@@ -1,0 +1,34 @@
+{
+  "mealPlans": [
+    {
+      "id": "mp_001",
+      "title": "7-day balanced",
+      "goal": "maintain",
+      "calories": 2000
+    },
+    {
+      "id": "mp_002",
+      "title": "High-protein cut",
+      "goal": "lose",
+      "calories": 1800
+    },
+    {
+      "id": "mp_003",
+      "title": "Lean bulk",
+      "goal": "gain",
+      "calories": 2800
+    },
+    {
+      "id": "mp_004",
+      "title": "Mediterranean classic",
+      "goal": "maintain",
+      "calories": 2200
+    },
+    {
+      "id": "mp_005",
+      "title": "Light vegetarian",
+      "goal": "lose",
+      "calories": 1600
+    }
+  ]
+}

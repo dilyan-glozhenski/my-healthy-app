@@ -1,0 +1,9 @@
+{
+    "screens": {
+        "home": {
+            "welcomeMessage": "Your meals, plan and workouts in one place.",
+            "welcomeDescription": "GTrack calories, follow a diet plan that fits you, and train with a coach that adapts to your progress.",
+            "getStartedButton": "Get Started"
+        }
+    }
+}
